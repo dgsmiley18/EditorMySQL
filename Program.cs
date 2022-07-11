@@ -19,7 +19,7 @@ namespace MySQLcrud
         public static void Main(string[] args)
         {
             // Instancia a config para poder ler as configurações do banco de dados.
-            StreamReader config = new StreamReader("C:\\Users\\Douglas\\source\\repos\\MySQLcrud\\MySQLcrud\\config.json");
+            StreamReader config = new StreamReader("config.json");
             string jsondata = config.ReadToEnd();
 
             // Mescla as configurações do servidor para conexão do servidor MySQL
